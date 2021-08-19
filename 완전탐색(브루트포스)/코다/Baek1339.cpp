@@ -11,7 +11,7 @@ int main() {
 
     vector<string> words;
     vector<int> weight;
-    weight.resize(26 + 1, 0);
+    weight.resize(26, 0);
 
     for (int i = 0; i < n; i++) {
         string temp;
